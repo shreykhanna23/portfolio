@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav{
+	/* background-color: red; */
+	height: 5vh;
+	position: relative;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	display: inline-block;
+	/* position: absolute; */
+	margin-right: 100px;	
+}
+
+nav ul li{
+	display: inline-block;
+	position: relative;
+	margin-left: 25px;
+	top: -36px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+nav ul li a{
+	margin-left: 50px;
+	padding: 5px 10px;
+	font-size: 1.3em;
+	text-decoration: none;	
+	transition: 0.3s ease-in linear;
+}
+
+nav ul li a:hover{
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition: 0.3s all;
+	text-decoration: none;
+	font-weight: 600;	
+	text-transform: uppercase;
+}
+
+body{
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,249,242,0.8127626050420168) 100%, rgba(255,255,255,1) 100%);
+	background-size: cover;
+}
+
+.sec{
+	width: 30%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Roboto', sans-serif;	
+	color: #000; 
+
+}
+
+.sec:hover{
+	background: white;
+	border-radius: 10px;
+	transition: 0.6s ease;
+	
+}
+
+.sec h2{
+	font-size: 3.5em;
+	text-align: center;
+	/* transform: translateX(-5%); */
+	font-weight: 700;
+}
+
+.sec p{
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+}
